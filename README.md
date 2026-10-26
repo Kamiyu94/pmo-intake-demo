@@ -31,3 +31,7 @@ python3 -m http.server 4320 --bind 127.0.0.1
 ```
 
 透過 HTTP 開啟 `index.html`。GitHub Pages 以 `main` 分支根目錄發布。`assets/data.mjs` 是唯一的初始資料來源；`assets/model.mjs` 管理版本、來源變動與判例條件。
+
+## 閱讀與響應式排版
+
+主要文字與表單以 16px（1rem）為基準，輔助文字 14px，小標籤至少 12px。字級使用相對單位；較窄螢幕改用單欄，寬表格在自己的容器內捲動。
